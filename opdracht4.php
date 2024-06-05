@@ -27,18 +27,18 @@ $this->name = strtolower($name);
 $game1 = new product;
 $game1->setName('fifa 2023');
 $game1->price = 70;
-$game1->category = 'sport';
+$game1->setCategory('sport');
 
 $game2 = new product();
-$game2 ->name = "hollow knight";
+$game2 ->setName( "hollow knight");
 $game2->price = 15;
-$game2->category = 'metro vania';
+$game2->setCategory('metro vania');
 
 
 $game3 = new product();
-$game3->name = "pokemon";
+$game3->setName("pokemon");
 $game3->price = 60;
-$game3->category = 'rpg';
+$game3-> setCategory('rpg');
 
 
 echo $game1-> name . $game1->formatPrice(). $game1->category . '<br>' ;
