@@ -34,4 +34,4 @@ var_dump($game2);
 echo $game3->name . '<br>';
 echo $game3->formatPrice() . ' ' . $game3->category . ' ' . $game3->rating . '<br>';
 var_dump($game3);
-?>
+
